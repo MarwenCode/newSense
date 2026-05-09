@@ -1,0 +1,57 @@
+# ── Node.js / Backend ──────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+dist/
+build/
+.cache/
+
+# ── Python / AI ────────────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# ── Environment variables ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Uploaded / generated files ─────────────────────────────────────────────────
+Backend/uploads/*
+!Backend/uploads/.gitkeep
+AI/news_articles/*
+!AI/news_articles/.gitkeep
+
+# ── Vector store / embeddings cache ───────────────────────────────────────────
+*.faiss
+*.pkl
+chroma_db/
+vectorstore/
+
+# ── OS & editor ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
