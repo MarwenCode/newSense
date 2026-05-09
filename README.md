@@ -252,7 +252,7 @@ Built as part of my AI engineering portfolio.
 - REST API design (Express.js)
 - Full stack development (React + Node.js + Python)
 
-**Author:** Marwen — Junior AI Engineer
+**Author:** Marwen 
 - Background: JavaScript / Node.js / React
 - Learning: RAG, MCP, Agentic AI, Automation (n8n)
 
