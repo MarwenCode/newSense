@@ -1,15 +1,19 @@
 import sys
+import os
+import time
+from dotenv import load_dotenv
 from langchain_chroma import Chroma
-from langchain_ollama import ChatOllama, OllamaEmbeddings
+# from langchain_ollama import OllamaEmbeddings
+from langchain_groq import ChatGroq
+from langchain_huggingface import HuggingFaceEmbeddings
+
+load_dotenv()
 
 def search(vectorstore, query):
     results = vectorstore.similarity_search(query, k=5)
     return results
 
-
-
-
-def generate_answer(llm, query, results):
+def generate_answer_stream(llm, query, results):
     context = ""
     for result in results:
         context = context + result.page_content + "\n\n"
@@ -31,15 +35,19 @@ User message: {query}
 
 Answer:"""
 
-    answer = llm.invoke(prompt)
-    return answer.content
-
+    for chunk in llm.stream(prompt):
+        print(chunk.content, end="", flush=True)
 
 def main():
     query = sys.argv[1]
 
-    llm = ChatOllama(model="llama3.2", temperature=0)
-    embeddings = OllamaEmbeddings(model="mxbai-embed-large")
+    llm = ChatGroq(
+        model="llama-3.3-70b-versatile",
+        api_key=os.getenv("GROQ_API_KEY"),
+        temperature=0
+    )
+
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     vectorstore = Chroma(
         collection_name="newsense",
         persist_directory="chroma_storage",
@@ -47,8 +55,6 @@ def main():
     )
 
     results = search(vectorstore, query)
-    answer = generate_answer(llm, query, results)
-    print(answer)
-
+    generate_answer_stream(llm, query, results)
 
 main()

@@ -1,4 +1,4 @@
-import { exec } from 'child_process'
+import { spawn } from 'child_process'
 import { Router } from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -15,17 +15,27 @@ router.post('/ask', (req, res) => {
     return res.status(400).json({ error: 'Question is required' })
   }
 
-  const pythonPath = path.join(__dirname, '../../ai/venv/Scripts/python.exe')
-  const scriptPath = path.join(__dirname, '../../ai/main.py')
+  const pythonPath = path.join(__dirname, '../../AI/venv/Scripts/python.exe')
+  const scriptPath = path.join(__dirname, '../../AI/main.py')
 
-  exec(`"${pythonPath}" "${scriptPath}" "${question}"`, (error, stdout, stderr) => {
-    if (error) {
-      return res.status(500).json({ 
-        error: 'Something went wrong',
-        details: stderr
-      })
-    }
-    res.json({ answer: stdout })
+  // Setup SSE headers
+  res.setHeader('Content-Type', 'text/event-stream')
+  res.setHeader('Cache-Control', 'no-cache')
+  res.setHeader('Connection', 'keep-alive')
+
+  const python = spawn(pythonPath, [scriptPath, question])
+
+  python.stdout.on('data', (data) => {
+    res.write(`data: ${data.toString()}\n\n`)
+  })
+
+  python.stderr.on('data', (data) => {
+    console.error('Python error:', data.toString())
+  })
+
+  python.on('close', () => {
+    res.write('data: [DONE]\n\n')
+    res.end()
   })
 })
 

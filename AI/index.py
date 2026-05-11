@@ -1,7 +1,8 @@
 import sys
 from pathlib import Path
 from langchain_chroma import Chroma
-from langchain_ollama import OllamaEmbeddings
+# from langchain_ollama import OllamaEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 
 
@@ -43,7 +44,7 @@ def index_document(file_path: str) -> None:
             )
         )
 
-    embeddings = OllamaEmbeddings(model="mxbai-embed-large")
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     vectorstore = Chroma(
         collection_name="newsense",
         persist_directory="chroma_storage",
