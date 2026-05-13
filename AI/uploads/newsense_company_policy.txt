@@ -1,0 +1,187 @@
+NEWSENSE COMPANY — EMPLOYEE HANDBOOK & POLICIES
+Last updated: January 2025
+
+===================================================
+1. WORKING HOURS & SCHEDULE
+===================================================
+
+Standard working hours at newSense are Monday to Friday, 9:00 AM to 6:00 PM local time. Employees are expected to be available during core hours from 10:00 AM to 4:00 PM. Outside of core hours, flexible working arrangements are permitted with manager approval.
+
+Remote work is allowed up to 3 days per week. Employees must be present in the office on Tuesdays and Thursdays. Any exception to this rule must be approved by the direct manager at least 48 hours in advance.
+
+Overtime work must be pre-approved by the department manager. Overtime is compensated at 1.5x the standard hourly rate for hours worked beyond 40 hours per week.
+
+===================================================
+2. PAID TIME OFF (PTO) & VACATION POLICY
+===================================================
+
+Full-time employees at newSense are entitled to the following paid time off per year:
+
+- 25 days of annual vacation leave
+- 10 days of sick leave
+- 3 days of personal leave
+- 1 day of birthday leave (on or nearest to your birthday)
+
+Vacation days must be requested at least 2 weeks in advance through the HR portal. A minimum of 10 consecutive vacation days must be taken between July and August each year.
+
+Unused vacation days can be carried over to the following year, with a maximum of 10 days. Any unused days beyond 10 will be paid out in December.
+
+Sick leave requires a medical certificate after 3 consecutive days of absence. Sick leave cannot be carried over to the following year.
+
+===================================================
+3. PUBLIC HOLIDAYS
+===================================================
+
+newSense observes the following public holidays each year:
+
+- New Year's Day (January 1)
+- Easter Monday
+- Labour Day (May 1)
+- Victory Day (May 8)
+- Ascension Day
+- Whit Monday
+- Bastille Day (July 14)
+- Assumption of Mary (August 15)
+- All Saints Day (November 1)
+- Armistice Day (November 11)
+- Christmas Day (December 25)
+
+When a public holiday falls on a weekend, employees receive a substitute day off on the nearest working day.
+
+===================================================
+4. REMOTE WORK POLICY
+===================================================
+
+newSense supports a hybrid work model. Employees may work remotely up to 3 days per week. The following rules apply to remote work:
+
+- Employees must have a stable internet connection (minimum 20 Mbps)
+- A dedicated and quiet workspace is required
+- Employees must be reachable via Slack during core hours
+- Remote work abroad (outside the country of employment) is allowed for a maximum of 30 days per year with prior approval from HR
+- Equipment provided by newSense (laptop, monitor, keyboard) must not be used by family members
+
+===================================================
+5. PARENTAL LEAVE
+===================================================
+
+newSense offers generous parental leave policies:
+
+Maternity leave: 16 weeks fully paid (extendable to 26 weeks for multiple births)
+Paternity leave: 4 weeks fully paid
+Adoption leave: 10 weeks fully paid for the primary caregiver
+
+Parental leave must be requested at least 1 month in advance. Employees returning from parental leave are guaranteed their previous position or an equivalent role.
+
+===================================================
+6. HEALTH & WELLNESS BENEFITS
+===================================================
+
+All full-time employees at newSense receive the following health benefits:
+
+- Full medical insurance coverage (employee + family)
+- Dental and vision care included
+- Monthly wellness allowance of 100 euros (gym, yoga, meditation apps)
+- Free mental health sessions (up to 12 sessions per year with a licensed therapist)
+- Annual health check-up covered by the company
+
+===================================================
+7. TRAINING & DEVELOPMENT
+===================================================
+
+newSense invests in continuous learning for all employees:
+
+- Annual learning budget of 2,000 euros per employee
+- Access to online learning platforms (Udemy, Coursera, LinkedIn Learning)
+- 2 paid conference days per year
+- Internal weekly tech talks every Friday at 4:00 PM
+- Mentorship program available upon request from HR
+
+Training requests must be submitted through the HR portal and approved by the direct manager.
+
+===================================================
+8. PERFORMANCE REVIEWS
+===================================================
+
+Performance reviews at newSense are conducted twice a year:
+
+- Mid-year review: June
+- Annual review: December
+
+Reviews are based on:
+1. Goal achievement (50%)
+2. Core competencies (30%)
+3. Team collaboration (20%)
+
+Salary increases are tied to annual performance reviews. Exceptional performers (score above 4.5/5) are eligible for a bonus of up to 15% of their annual salary.
+
+===================================================
+9. CODE OF CONDUCT
+===================================================
+
+All newSense employees are expected to:
+
+- Treat colleagues with respect and professionalism at all times
+- Maintain confidentiality of company and client information
+- Report any conflicts of interest to HR immediately
+- Not engage in any form of discrimination or harassment
+- Follow data protection regulations (GDPR)
+
+Any violation of the code of conduct may result in disciplinary action, up to and including termination of employment.
+
+===================================================
+10. EXPENSE REIMBURSEMENT
+===================================================
+
+Business expenses are reimbursed within 15 working days of submission. The following expenses are covered:
+
+- Business travel (flights, trains, hotels — economy class only)
+- Client meals (maximum 50 euros per person)
+- Home office equipment (maximum 500 euros per year)
+- Mobile phone bill (maximum 30 euros per month)
+
+All expenses must be submitted through the HR portal with original receipts within 30 days of the expense.
+
+===================================================
+11. EQUIPMENT & IT POLICY
+===================================================
+
+Each employee receives the following equipment upon joining newSense:
+
+- MacBook Pro 14" or equivalent Windows laptop
+- External monitor (27")
+- Wireless keyboard and mouse
+- Noise-cancelling headphones
+
+Equipment must be returned in good condition upon leaving the company. Any damage beyond normal wear and tear will be deducted from the final paycheck.
+
+IT support is available Monday to Friday from 8:00 AM to 8:00 PM via the #it-support Slack channel or by emailing support@newsense.ai
+
+===================================================
+12. OFFBOARDING POLICY
+===================================================
+
+Employees leaving newSense must provide a notice period of:
+
+- Junior employees (0-2 years): 1 month notice
+- Senior employees (2-5 years): 2 months notice
+- Lead and management (5+ years): 3 months notice
+
+During the notice period, employees are expected to complete a knowledge transfer to their replacement or team members. Final paycheck including unused vacation days will be processed within 10 working days after the last day of employment.
+
+===================================================
+CONTACT INFORMATION
+===================================================
+
+For any questions about these policies, please contact:
+
+HR Department: hr@newsense.ai
+IT Support: support@newsense.ai
+Finance: finance@newsense.ai
+CEO Office: ceo@newsense.ai
+
+Office address: 42 Rue de l'Innovation, 75008 Paris, France
+Phone: +33 1 23 45 67 89
+
+===================================================
+END OF EMPLOYEE HANDBOOK
+===================================================

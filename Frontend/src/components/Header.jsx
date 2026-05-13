@@ -12,7 +12,7 @@ function Header() {
       </div>
       <div className="flex items-center gap-2">
         <Zap size={14} className="text-green-500" />
-        <span className="text-xs text-gray-500">Ollama connected</span>
+        <span className="text-xs text-gray-500"> connected</span>
       </div>
     </header>
   )
