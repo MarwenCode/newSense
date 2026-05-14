@@ -1,8 +1,3 @@
-import { Router } from 'express'
-import fetch from 'node-fetch'
-
-const router = Router()
-
 router.post('/ask', async (req, res) => {
   const { question } = req.body
 
@@ -21,6 +16,13 @@ router.post('/ask', async (req, res) => {
       body: JSON.stringify({ question })
     })
 
+    if (!response.ok) {
+      res.write(`data: Sorry, the AI service is starting up. Please try again in 30 seconds.\n\n`)
+      res.write('data: [DONE]\n\n')
+      res.end()
+      return
+    }
+
     const reader = response.body
     reader.on('data', (chunk) => {
       res.write(`data: ${chunk.toString()}\n\n`)
@@ -32,9 +34,8 @@ router.post('/ask', async (req, res) => {
     })
 
   } catch (error) {
+    res.write(`data: Service is starting up. Please try again in 30 seconds.\n\n`)
     res.write('data: [DONE]\n\n')
     res.end()
   }
 })
-
-export default router
