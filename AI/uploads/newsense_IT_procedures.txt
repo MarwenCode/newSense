@@ -1,0 +1,215 @@
+NEWSENSE COMPANY — IT & TECHNICAL PROCEDURES GUIDE
+Last updated: January 2025
+
+===================================================
+1. ONBOARDING — GETTING STARTED WITH YOUR EQUIPMENT
+===================================================
+
+Welcome to newSense! On your first day, your equipment will be ready at your desk or shipped to your home address if you are remote. Your IT kit includes a MacBook Pro 14" or equivalent Windows laptop, an external 27" monitor, a wireless keyboard and mouse, and noise-cancelling headphones.
+
+To activate your account:
+1. Power on your laptop
+2. Connect to the newSense WiFi network (password provided by HR)
+3. Open your browser and go to setup.newsense.ai
+4. Enter your employee ID (provided in your welcome email)
+5. Set up your password following the security policy below
+
+Your corporate email will be firstname.lastname@newsense.ai. You will receive access to Slack, Notion, GitHub, and Google Workspace within 24 hours of account activation.
+
+===================================================
+2. PASSWORD & SECURITY POLICY
+===================================================
+
+All newSense employees must follow these security rules:
+
+Password requirements:
+- Minimum 12 characters
+- At least one uppercase letter
+- At least one number
+- At least one special character (!@#$%^&*)
+- Cannot reuse the last 5 passwords
+
+Passwords must be changed every 90 days. The system will remind you 7 days before expiration.
+
+Two-factor authentication (2FA) is mandatory for all accounts. Use Google Authenticator or Authy. Hardware security keys (YubiKey) are available upon request from IT.
+
+Never share your password with anyone, including IT support. newSense IT team will NEVER ask for your password.
+
+===================================================
+3. SOFTWARE & TOOLS
+===================================================
+
+The following tools are available to all employees:
+
+Communication:
+- Slack (primary communication tool)
+- Google Meet (video calls and meetings)
+- Loom (async video messages)
+
+Project Management:
+- Notion (documentation and wikis)
+- Linear (bug tracking and project management)
+- GitHub (code repository)
+
+Design:
+- Figma (UI/UX design — available for design team and PMs)
+
+Development:
+- VS Code (recommended IDE)
+- GitHub Copilot (available for all developers — request access from IT)
+- Docker Desktop (pre-installed on developer laptops)
+- Postman (API testing)
+
+All software must be installed through the approved software portal at apps.newsense.ai. Installing unauthorized software is a violation of the IT policy and may result in disciplinary action.
+
+===================================================
+4. VPN & REMOTE ACCESS
+===================================================
+
+When working remotely or on public WiFi, you MUST connect to the newSense VPN before accessing any company resources.
+
+VPN Setup:
+1. Download the Cisco AnyConnect client from apps.newsense.ai
+2. Enter server address: vpn.newsense.ai
+3. Use your corporate email and password
+4. Approve the 2FA prompt on your phone
+
+VPN must be active when:
+- Accessing internal databases
+- Working on client projects
+- Using the company GitHub repositories
+- Accessing the HR portal
+
+VPN is not required for:
+- Using Slack or Google Meet
+- Browsing public websites
+- Personal use during break time
+
+===================================================
+5. DATA & FILE MANAGEMENT
+===================================================
+
+All work files must be stored in Google Drive under your department folder. Do not store work files on your local desktop or personal cloud storage (Dropbox, iCloud, etc.).
+
+File naming convention:
+[YEAR]-[MONTH]-[PROJECT]-[DESCRIPTION]-[VERSION]
+Example: 2025-01-newSense-homepage-redesign-v2.pdf
+
+Sensitive documents (contracts, financial reports, HR files) must be stored in the restricted Google Drive folder and can only be accessed by authorized employees. Contact IT to request access.
+
+Data retention policy:
+- Project files: kept for 5 years after project completion
+- Client contracts: kept for 10 years
+- Financial documents: kept for 7 years
+- Employee records: kept for 5 years after leaving the company
+
+===================================================
+6. INCIDENT REPORTING
+===================================================
+
+If you suspect a security incident (phishing email, lost laptop, unauthorized access), report it immediately:
+
+1. Email: security@newsense.ai (response within 1 hour)
+2. Slack: #security-incidents channel
+3. Phone: +33 1 23 45 67 90 (24/7 security hotline)
+
+Lost or stolen devices must be reported within 1 hour of discovery. IT will remotely wipe the device immediately to protect company data.
+
+Phishing emails should be forwarded to phishing@newsense.ai and then deleted. Never click links or download attachments from suspicious emails.
+
+===================================================
+7. SLACK GUIDELINES
+===================================================
+
+Slack is our primary communication tool at newSense. Here are the main channels:
+
+#general — Company-wide announcements
+#engineering — Technical discussions
+#design — Design team discussions
+#random — Off-topic conversations
+#it-support — IT help requests
+#security-incidents — Report security issues
+
+Response time expectations:
+- Direct messages: within 2 hours during working hours
+- Channel mentions (@name): within 4 hours
+- Channel broadcasts (@here, @channel): not required to respond immediately
+
+Set your Slack status when:
+- In a meeting (use the calendar emoji 📅)
+- Working remotely (use the house emoji 🏠)
+- On vacation (use the palm tree emoji 🌴)
+- Unavailable (use the do not disturb setting)
+
+===================================================
+8. MEETING CULTURE
+===================================================
+
+At newSense we follow these meeting rules:
+
+- No meeting Fridays: Fridays are protected focus time. No internal meetings should be scheduled on Fridays unless absolutely necessary.
+- Meetings must have an agenda: Send the agenda in the calendar invite. No agenda = decline the meeting.
+- Maximum meeting duration: 30 minutes for syncs, 60 minutes for planning sessions, 90 minutes for workshops.
+- Start and end on time: Meetings start exactly on time. If you are late by more than 5 minutes, the meeting continues without you.
+- Record important meetings: Use Loom to record meetings for team members in different time zones.
+
+All meetings must be scheduled via Google Calendar. Add all necessary participants and include a Google Meet link.
+
+===================================================
+9. IT SUPPORT
+===================================================
+
+For technical issues, contact IT support through the following channels:
+
+Slack: #it-support channel (fastest response)
+Email: support@newsense.ai
+Self-service portal: help.newsense.ai (guides, FAQs, password reset)
+
+Response times:
+- Critical issues (system down, security breach): 30 minutes
+- High priority (cannot work): 2 hours
+- Medium priority (workaround available): 8 hours
+- Low priority (general questions): 24 hours
+
+IT support hours: Monday to Friday, 8:00 AM to 8:00 PM Paris time.
+Emergency support (security incidents only): 24/7 via the security hotline.
+
+===================================================
+10. EQUIPMENT RETURN & OFFBOARDING
+===================================================
+
+When leaving newSense, all company equipment must be returned within 5 business days of your last day.
+
+Return process:
+1. IT will send you a return shipping label via email
+2. Pack all equipment in the original boxes if available
+3. Include all accessories (charger, cables, headphones)
+4. Drop off at any UPS or Chronopost location
+
+Equipment condition:
+- Normal wear and tear is acceptable
+- Significant damage will be assessed and deducted from the final paycheck
+- Lost equipment will be charged at full replacement cost
+
+Before your last day, IT will:
+- Transfer your Google Drive files to your manager
+- Archive your emails for 90 days
+- Revoke all access credentials immediately on your last day
+
+===================================================
+CONTACT INFORMATION
+===================================================
+
+IT Support: support@newsense.ai
+Security Team: security@newsense.ai
+IT Emergency Hotline: +33 1 23 45 67 90
+
+IT Help Portal: help.newsense.ai
+Software Portal: apps.newsense.ai
+VPN Server: vpn.newsense.ai
+
+Office address: 42 Rue de l'Innovation, 75008 Paris, France
+
+===================================================
+END OF IT & TECHNICAL PROCEDURES GUIDE
+===================================================

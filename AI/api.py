@@ -112,6 +112,6 @@ Answer:"""
         headers={
             "Cache-Control": "no-cache",
             "Connection": "keep-alive",
-            "X-Accel-Buffering": "no"  # ← important for Render!
+            "X-Accel-Buffering": "no"  
         }
     )
