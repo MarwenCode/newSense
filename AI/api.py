@@ -78,7 +78,7 @@ async def upload(file: UploadFile = File(...)):
 @app.post("/ask")
 async def ask(body: dict):
     question = body.get("question", "")
-    results = vectorstore.similarity_search(question, k=5)
+    results = vectorstore.similarity_search(question, k=10)
 
     context = ""
     for result in results:
@@ -86,8 +86,10 @@ async def ask(body: dict):
 
     prompt = f"""You are newSense, a friendly AI document assistant.
 If the user is greeting you, respond naturally and friendly.
-If the user is asking about the document, use ONLY the context below.
+If the user asks to describe or summarize the document, give a complete structured summary.
+If the user is asking about the document, use ONLY the context below to answer completely.
 If the answer is not in the context, say "I don't find that information in your document."
+Always complete your answer fully — never stop mid-sentence.
 
 Context:
 {context}
