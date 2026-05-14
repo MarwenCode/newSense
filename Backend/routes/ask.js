@@ -15,7 +15,7 @@ router.post('/ask', async (req, res) => {
   res.setHeader('Connection', 'keep-alive')
 
   try {
-    const response = await fetch('http://localhost:8000/ask', {
+    const response = await fetch(`${process.env.FASTAPI_URL}/ask`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ question })
