@@ -22,7 +22,7 @@ function ChatSection({ activeConversation, onUpdateMessages }) {
     setLoading(true)
 
     try {
-      const response = await fetch('http://localhost:5000/api/ask', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/ask`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question })
