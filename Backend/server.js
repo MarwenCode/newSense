@@ -2,7 +2,7 @@ import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
 import askRoute from './routes/ask.js'
-import uploadRoute from './uploads/upload.js'
+import uploadRoute from './routes/upload.js'
 
 
 const app = express()
