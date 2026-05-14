@@ -5,6 +5,7 @@ router.post('/ask', async (req, res) => {
     return res.status(400).json({ error: 'Question is required' })
   }
 
+  res.setTimeout(0) 
   res.setHeader('Content-Type', 'text/event-stream')
   res.setHeader('Cache-Control', 'no-cache')
   res.setHeader('Connection', 'keep-alive')
@@ -13,7 +14,8 @@ router.post('/ask', async (req, res) => {
     const response = await fetch(`${process.env.FASTAPI_URL}/ask`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ question })
+      body: JSON.stringify({ question }),
+      signal: AbortSignal.timeout(120000) 
     })
 
     if (!response.ok) {
