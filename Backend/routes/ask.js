@@ -41,3 +41,6 @@ router.post('/ask', async (req, res) => {
     res.end()
   }
 })
+
+
+export default router
