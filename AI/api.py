@@ -95,8 +95,23 @@ Context:
 User message: {question}
 Answer:"""
 
-    def stream():
-        for chunk in llm.stream(prompt):
-            yield chunk.content
+    import asyncio
 
-    return StreamingResponse(stream(), media_type="text/plain")
+    async def stream():
+        try:
+            for chunk in llm.stream(prompt):
+                if chunk.content:
+                    yield chunk.content
+                    await asyncio.sleep(0)
+        except Exception as e:
+            yield f" (Error: {str(e)})"
+
+    return StreamingResponse(
+        stream(),
+        media_type="text/plain",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no"  # ← important for Render!
+        }
+    )
