@@ -1,3 +1,8 @@
+import { Router } from 'express'
+import fetch from 'node-fetch'
+
+const router = Router()
+
 router.post('/ask', async (req, res) => {
   const { question } = req.body
 
@@ -5,7 +10,7 @@ router.post('/ask', async (req, res) => {
     return res.status(400).json({ error: 'Question is required' })
   }
 
-  res.setTimeout(0) 
+  res.setTimeout(0)
   res.setHeader('Content-Type', 'text/event-stream')
   res.setHeader('Cache-Control', 'no-cache')
   res.setHeader('Connection', 'keep-alive')
@@ -15,7 +20,7 @@ router.post('/ask', async (req, res) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ question }),
-      signal: AbortSignal.timeout(120000) 
+      signal: AbortSignal.timeout(120000)
     })
 
     if (!response.ok) {
@@ -42,5 +47,4 @@ router.post('/ask', async (req, res) => {
   }
 })
 
-
-export default router
+export default router  
