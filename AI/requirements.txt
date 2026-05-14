@@ -12,6 +12,7 @@ colorama==0.4.6
 distro==1.9.0
 durationpy==0.10
 fastapi==0.136.1
+fastembed==0.8.0
 filelock==3.29.0
 flatbuffers==25.12.19
 fsspec==2026.4.0
@@ -41,6 +42,7 @@ langchain-huggingface==1.2.2
 langchain-ollama==1.1.0
 langchain-protocol==0.0.15
 langsmith==0.8.3
+loguru==0.7.3
 markdown-it-py==4.2.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
@@ -60,7 +62,9 @@ opentelemetry-semantic-conventions==0.62b1
 orjson==3.11.9
 overrides==7.7.0
 packaging==26.2
+pillow==12.2.0
 protobuf==6.33.6
+py_rust_stemmers==0.1.5
 pybase64==1.4.3
 pydantic==2.13.4
 pydantic-settings==2.14.1
@@ -104,6 +108,7 @@ uvicorn==0.46.0
 watchfiles==1.1.1
 websocket-client==1.9.0
 websockets==16.0
+win32_setctime==1.2.0
 xxhash==3.7.0
 zipp==3.23.1
 zstandard==0.25.0
