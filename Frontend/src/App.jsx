@@ -3,9 +3,10 @@ import Header from './components/Header'
 import UploadSection from './components/UploadSection'
 import ChatSection from './components/ChatSection'
 import Sidebar from './components/Sidebar'
+import WelcomeModal from './components/WelcomeModal'
 
 function App() {
-  
+  const [showWelcome, setShowWelcome] = useState(true)
 
   // Load conversations from localStorage on startup
  const getSavedConversations = () => {
@@ -67,6 +68,7 @@ const [activeConversation, setActiveConversation] = useState(() => {
 
   return (
     <div className="h-screen flex flex-col bg-gray-50">
+      {showWelcome && <WelcomeModal onClose={() => setShowWelcome(false)} />}
       <Header />
       <div className="flex flex-1 overflow-hidden">
         <Sidebar
