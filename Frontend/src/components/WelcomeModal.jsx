@@ -27,7 +27,7 @@ function WelcomeModal({ onClose }) {
           <div className="bg-white/20 rounded-full p-3 mb-3">
             <Bot size={32} className="text-white" />
           </div>
-          <h1 className="text-2xl font-bold tracking-tight">Welcome to newSense 🤖</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Welcome to newSense </h1>
           <p className="text-purple-200 text-sm mt-1">Your AI-powered document assistant</p>
         </div>
 
